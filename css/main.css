@@ -7,7 +7,7 @@ body {
     color: #5B5B5B;
 }
 
-h1, h2, h3 {
+h1 h2 h3 {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
@@ -34,14 +34,8 @@ p, ul, ol {
     line-height: 180%;
 }
 
-ul, ol {
-}
-
 a {
     color: #5E5E5E;
-}
-
-a:hover {
 }
 
 #wrapper {
@@ -201,9 +195,6 @@ a:hover {
     color: #FFFFFF;
 }
 
-#menu .current_page_item a {
-}
-
 /* Page */
 
 #page {
@@ -357,27 +348,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Calendar */
-
-#calendar {
-}
-
-#calendar_wrap {
-    padding: 20px;
-}
-
-#calendar table {
-    width: 100%;
-}
-
-#calendar tbody td {
-    text-align: center;
-}
-
-#calendar #next {
-    text-align: right;
-}
-
 /* Three Column Footer Content */
 
 #footer-content {
@@ -465,51 +435,12 @@ a:hover {
     color: #5E5E5E;
 }
 
-#marketing {
-    overflow: hidden;
-    margin-bottom: 30px;
-    padding: 20px 0px 10px 0px;
-    border-top: 1px solid #E7EBED;
-    border-bottom: 1px solid #E7EBED;
-}
-
-#marketing .text1 {
-    float: left;
-    margin: 0px;
-    padding: 0px;
-    letter-spacing: -2px;
-    text-transform: lowercase;
-    font-size: 34px;
-    color: #345E9B;
-}
-
-#marketing .text2 {
-    float: right;
-}
-
-#marketing .text2 a {
-    display: block;
-    width: 252px;
-    height: 38px;
-    padding: 15px 0px 0px 0px;
-    background: url(../img/img07.jpg) no-repeat left top;
-    letter-spacing: -2px;
-    text-align: center;
-    text-transform: lowercase;
-    font-size: 30px;
-    color: #FFFFFF;
-}
-
 #banner {
     margin: 0px auto;
     width: 1000px;
     height: 340px;
     background: url(../img/img03.png) no-repeat left bottom;
 }
-
-#banner .content {
-}
-
 
 .list-style1 {
     margin: 0px;
