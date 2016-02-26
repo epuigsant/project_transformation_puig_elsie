@@ -162,6 +162,20 @@ a {
 
 /* Content */
 
+@media (min-width:950px) {
+    #content {
+        float: right;
+        width: calc(100%/ 3 * 2);
+    }
+
+    #sidebar {
+        float: left;
+        width: calc(100% / 3)
+    }
+}
+
+
+
 .post {
     overflow: hidden;
     margin-bottom: 40px;
