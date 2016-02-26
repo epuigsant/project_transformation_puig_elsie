@@ -250,6 +250,10 @@ a {
     text-decoration: none;
 }
 
+.post + .post {
+    margin-top: 1.5em;
+}
+
 /* Sidebar */
 
 #sidebar {
