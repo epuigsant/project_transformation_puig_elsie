@@ -385,12 +385,14 @@ a {
 }
 
 #banner {
-    margin: 0px auto;
-    height: 340px;
     background: url(../img/img03.png) no-repeat left bottom;
 }
 
-
+#banner img {
+    height: auto;
+    margin: auto;
+    width: 100%;
+}
 
 .list-style1 {
     margin: 0px;
