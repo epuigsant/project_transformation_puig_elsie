@@ -146,7 +146,7 @@ a {
     color: #FFFFFF;
 }
 
-@media all and (mid-width: 600px) {
+@media all and (min-width: 600px) {
     nav li {
         width: 50%;
     }
@@ -179,8 +179,6 @@ a {
         width: calc(100% / 3)
     }
 }
-
-
 
 .post {
     overflow: hidden;
